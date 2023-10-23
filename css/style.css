@@ -151,7 +151,7 @@ figure img, figure video, figure figcaption {
   
   @media (prefers-reduced-motion: reduce) {
     .animation { animation: none; }
-    img {animation: none;}
+    .gif {display: none;}
   }
 
   @media only screen and (min-width: 768px) {
